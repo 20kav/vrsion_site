@@ -3626,12 +3626,13 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
+		flex-direction: column;
 		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 100vh;
-		min-height: 35em;
+		height: 67vh;
+		min-height: 20em;
 	}
 
 		#header input[type="submit"],
@@ -3746,7 +3747,7 @@ input, select, textarea {
 		}
 
 		#header .image {
-			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 4px #4696e5, 0 0 0 0px rgba(255, 255, 255, 0.25);
 		}
 
 			#header .image.phone {
@@ -3831,7 +3832,7 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.5em;
+			font-size: 2em;
 			line-height: 1.35em;
 		}
 
@@ -3850,7 +3851,6 @@ input, select, textarea {
 			transform: translateX(0);
 			opacity: 1;
 			text-align: right;
-			margin: -3.5em 4em 0 0;
 		}
 
 			#header .content > :last-child {
