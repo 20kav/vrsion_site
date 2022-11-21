@@ -2273,7 +2273,6 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		overflow: hidden;
 	}
 
 		.image img {
@@ -3615,7 +3614,7 @@ input, select, textarea {
 	#header {
 		background-color: #50a2e6;
 		color: #d1e5f9;
-		padding: 0em 0 0em 0 ;
+		padding: 1.5em 0 0em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3633,7 +3632,7 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 67vh;
+		height: 30vh;
 		min-height: 20em;
 		font-weight: normal;
 	}
