@@ -3615,7 +3615,7 @@ input, select, textarea {
 	#header {
 		background-color: #50a2e6;
 		color: #d1e5f9;
-		padding: .1em 0 .1em 0 ;
+		padding: 0em 0 0em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
