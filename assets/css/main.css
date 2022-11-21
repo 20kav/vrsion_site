@@ -2682,6 +2682,8 @@ input, select, textarea {
 	}
 
 	header p {
+		font-family: Helvetica, sans-serif;
+		font-weight: italic;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3611,9 +3613,9 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		background-color: #50a2e6;
 		color: #d1e5f9;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: .8em 0 .8em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3633,6 +3635,7 @@ input, select, textarea {
 		background-size: auto, cover;
 		height: 67vh;
 		min-height: 20em;
+		font-weight: normal;
 	}
 
 		#header input[type="submit"],
@@ -3747,7 +3750,7 @@ input, select, textarea {
 		}
 
 		#header .image {
-			box-shadow: 0 0 0 4px #4696e5, 0 0 0 0px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 0px #4696e5, 0 0 0 0px rgba(255, 255, 255, 0.25);
 		}
 
 			#header .image.phone {
@@ -3827,12 +3830,13 @@ input, select, textarea {
 
 		#header h1 {
 			font-size: 3.25em;
-			font-weight: bold;
+			font-weight: normal;
 			margin-bottom: 0.5em;
 		}
 
 		#header p {
 			font-size: 2em;
+			font-weight: 200;
 			line-height: 1.35em;
 		}
 
